@@ -55,6 +55,6 @@ describe('Check Operation', () => {
 			expect(calculatrice('+', 2, 2)).toEqual(4);
 			expect(calculatrice('-', 2, 3)).toEqual(-1);
 			expect(calculatrice('/', 4, 2)).toEqual(2);
-			expect(calculatrice('/', 4, 0)).toBe(null);
+			expect(calculatrice('/', 4, 4)).toBe(null);
 		});
 });
